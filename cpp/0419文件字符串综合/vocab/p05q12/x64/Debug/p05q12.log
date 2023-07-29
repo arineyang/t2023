@@ -1,0 +1,3 @@
+﻿  vocab.cpp
+D:\mine_coding\CAU_Cpp_II\p05q12\p05q12\vocab.cpp(14,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  p05q12.vcxproj -> D:\mine_coding\CAU_Cpp_II\p05q12\x64\Debug\p05q12.exe

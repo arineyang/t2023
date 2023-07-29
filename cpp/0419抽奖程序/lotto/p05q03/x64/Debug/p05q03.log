@@ -1,0 +1,3 @@
+﻿  lotto.cpp
+D:\mine_coding\CAU_Cpp_II\p05q03\p05q03\lotto.cpp(128,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  p05q03.vcxproj -> D:\mine_coding\CAU_Cpp_II\p05q03\x64\Debug\p05q03.exe
