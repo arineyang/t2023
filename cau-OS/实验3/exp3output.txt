@@ -1,0 +1,351 @@
+
+Please enter the number of your processes:5
+Please enter the basic information of Process 1
+	name of Process 1:peppa
+	priority of Process 1:10
+	estimated running time of Process 1:10
+Process peppa has successfully created!
+
+Please enter the basic information of Process 2
+	name of Process 2:baby
+	priority of Process 2:5
+	estimated running time of Process 2:2
+Process baby has successfully created!
+
+Please enter the basic information of Process 3
+	name of Process 3:candy
+	priority of Process 3:6
+	estimated running time of Process 3:5
+Process candy has successfully created!
+
+Please enter the basic information of Process 4
+	name of Process 4:danny
+	priority of Process 4:3
+	estimated running time of Process 4:2
+Process danny has successfully created!
+
+Please enter the basic information of Process 5
+	name of Process 5:edmond
+	priority of Process 5:9
+	estimated running time of Process 5:13
+Process edmond has successfully created!
+
+~~~~~ROUND 1~~~~~
+####### CURRENT RUNNING PROCESS - peppa #######
+Name	Status	Priority	Running time	Elapsed time
+peppa	R	10		10		0	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+edmond	W	9		13		0	
+candy	W	6		5		0	
+baby	W	5		2		0	
+danny	W	3		2		0	
+####### BLOCKED PROCESS: N/A #######
+Press any key to continue.....c
+
+~~~~~ROUND 2~~~~~
+####### CURRENT RUNNING PROCESS - edmond #######
+Name	Status	Priority	Running time	Elapsed time
+edmond	R	9		13		0	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+candy	W	6		5		0	
+baby	W	5		2		0	
+danny	W	3		2		0	
+####### BLOCKED PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+peppa	B	9		10		1	
+Press any key to continue.....c
+
+~~~~~ROUND 3~~~~~
+####### CURRENT RUNNING PROCESS - peppa #######
+Name	Status	Priority	Running time	Elapsed time
+peppa	R	9		10		1	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+edmond	W	8		13		1	
+candy	W	6		5		0	
+baby	W	5		2		0	
+danny	W	3		2		0	
+####### BLOCKED PROCESS: N/A #######
+Press any key to continue.....c
+
+~~~~~ROUND 4~~~~~
+####### CURRENT RUNNING PROCESS - edmond #######
+Name	Status	Priority	Running time	Elapsed time
+edmond	R	8		13		1	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+candy	W	6		5		0	
+baby	W	5		2		0	
+danny	W	3		2		0	
+####### BLOCKED PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+peppa	B	8		10		2	
+Press any key to continue.....c
+
+~~~~~ROUND 5~~~~~
+####### CURRENT RUNNING PROCESS - peppa #######
+Name	Status	Priority	Running time	Elapsed time
+peppa	R	8		10		2	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+edmond	W	7		13		2	
+candy	W	6		5		0	
+baby	W	5		2		0	
+danny	W	3		2		0	
+####### BLOCKED PROCESS: N/A #######
+Press any key to continue.....c
+
+~~~~~ROUND 6~~~~~
+####### CURRENT RUNNING PROCESS - edmond #######
+Name	Status	Priority	Running time	Elapsed time
+edmond	R	7		13		2	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+candy	W	6		5		0	
+baby	W	5		2		0	
+danny	W	3		2		0	
+####### BLOCKED PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+peppa	B	7		10		3	
+Press any key to continue.....c
+
+~~~~~ROUND 7~~~~~
+####### CURRENT RUNNING PROCESS - peppa #######
+Name	Status	Priority	Running time	Elapsed time
+peppa	R	7		10		3	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+candy	W	6		5		0	
+edmond	W	6		13		3	
+baby	W	5		2		0	
+danny	W	3		2		0	
+####### BLOCKED PROCESS: N/A #######
+Press any key to continue.....c
+
+~~~~~ROUND 8~~~~~
+####### CURRENT RUNNING PROCESS - candy #######
+Name	Status	Priority	Running time	Elapsed time
+candy	R	6		5		0	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+baby	W	5		2		0	
+danny	W	3		2		0	
+####### BLOCKED PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+edmond	B	6		13		3	
+peppa	B	6		10		4	
+Press any key to continue.....c
+
+~~~~~ROUND 9~~~~~
+####### CURRENT RUNNING PROCESS - peppa #######
+Name	Status	Priority	Running time	Elapsed time
+peppa	R	6		10		4	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+baby	W	5		2		0	
+candy	W	5		5		1	
+danny	W	3		2		0	
+####### BLOCKED PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+edmond	B	6		13		3	
+Press any key to continue.....c
+
+~~~~~ROUND 10~~~~~
+####### CURRENT RUNNING PROCESS - edmond #######
+Name	Status	Priority	Running time	Elapsed time
+edmond	R	6		13		3	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+baby	W	5		2		0	
+candy	W	5		5		1	
+peppa	W	5		10		5	
+danny	W	3		2		0	
+####### BLOCKED PROCESS: N/A #######
+Press any key to continue.....c
+
+~~~~~ROUND 11~~~~~
+####### CURRENT RUNNING PROCESS - baby #######
+Name	Status	Priority	Running time	Elapsed time
+baby	R	5		2		0	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+danny	W	3		2		0	
+####### BLOCKED PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+candy	B	5		5		1	
+peppa	B	5		10		5	
+edmond	B	5		13		4	
+Press any key to continue.....c
+
+~~~~~ROUND 12~~~~~
+####### CURRENT RUNNING PROCESS - candy #######
+Name	Status	Priority	Running time	Elapsed time
+candy	R	5		5		1	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+baby	W	4		2		1	
+danny	W	3		2		0	
+####### BLOCKED PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+peppa	B	5		10		5	
+edmond	B	5		13		4	
+Press any key to continue.....c
+
+~~~~~ROUND 13~~~~~
+####### CURRENT RUNNING PROCESS - peppa #######
+Name	Status	Priority	Running time	Elapsed time
+peppa	R	5		10		5	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+baby	W	4		2		1	
+candy	W	4		5		2	
+danny	W	3		2		0	
+####### BLOCKED PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+edmond	B	5		13		4	
+Press any key to continue.....c
+
+~~~~~ROUND 14~~~~~
+####### CURRENT RUNNING PROCESS - edmond #######
+Name	Status	Priority	Running time	Elapsed time
+edmond	R	5		13		4	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+baby	W	4		2		1	
+candy	W	4		5		2	
+peppa	W	4		10		6	
+danny	W	3		2		0	
+####### BLOCKED PROCESS: N/A #######
+Press any key to continue.....c
+
+~~~~~ROUND 15~~~~~
+####### CURRENT RUNNING PROCESS - baby #######
+Name	Status	Priority	Running time	Elapsed time
+baby	R	4		2		1	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+danny	W	3		2		0	
+####### BLOCKED PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+candy	B	4		5		2	
+peppa	B	4		10		6	
+edmond	B	4		13		5	
+Process baby is terminating...
+Name	Status	Priority	Running time	Elapsed time
+baby	C	4		2		2	
+  Turnaround time	 Weighted turnaround time	
+  14			   7.000000
+Process baby is destroyed!
+Press any key to continue.....c
+
+~~~~~ROUND 16~~~~~
+####### CURRENT RUNNING PROCESS - danny #######
+Name	Status	Priority	Running time	Elapsed time
+danny	R	3		2		0	
+####### READY PROCESS: N/A #######
+####### BLOCKED PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+candy	B	4		5		2	
+peppa	B	4		10		6	
+edmond	B	4		13		5	
+Press any key to continue.....c
+
+~~~~~ROUND 17~~~~~
+####### CURRENT RUNNING PROCESS - candy #######
+Name	Status	Priority	Running time	Elapsed time
+candy	R	4		5		2	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+danny	W	2		2		1	
+####### BLOCKED PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+peppa	B	4		10		6	
+edmond	B	4		13		5	
+Press any key to continue.....c
+
+~~~~~ROUND 18~~~~~
+####### CURRENT RUNNING PROCESS - peppa #######
+Name	Status	Priority	Running time	Elapsed time
+peppa	R	4		10		6	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+candy	W	3		5		3	
+danny	W	2		2		1	
+####### BLOCKED PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+edmond	B	4		13		5	
+Press any key to continue.....c
+
+~~~~~ROUND 19~~~~~
+####### CURRENT RUNNING PROCESS - edmond #######
+Name	Status	Priority	Running time	Elapsed time
+edmond	R	4		13		5	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+candy	W	3		5		3	
+peppa	W	3		10		7	
+danny	W	2		2		1	
+####### BLOCKED PROCESS: N/A #######
+Press any key to continue.....c
+
+~~~~~ROUND 20~~~~~
+####### CURRENT RUNNING PROCESS - candy #######
+Name	Status	Priority	Running time	Elapsed time
+candy	R	3		5		3	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+danny	W	2		2		1	
+####### BLOCKED PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+peppa	B	3		10		7	
+edmond	B	3		13		6	
+Press any key to continue.....c
+
+~~~~~ROUND 21~~~~~
+####### CURRENT RUNNING PROCESS - peppa #######
+Name	Status	Priority	Running time	Elapsed time
+peppa	R	3		10		7	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+danny	W	2		2		1	
+candy	W	2		5		4	
+####### BLOCKED PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+edmond	B	3		13		6	
+Press any key to continue.....c
+
+~~~~~ROUND 22~~~~~
+####### CURRENT RUNNING PROCESS - edmond #######
+Name	Status	Priority	Running time	Elapsed time
+edmond	R	3		13		6	
+####### READY PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+danny	W	2		2		1	
+candy	W	2		5		4	
+peppa	W	2		10		8	
+####### BLOCKED PROCESS: N/A #######
+Press any key to continue.....c
+
+~~~~~ROUND 23~~~~~
+####### CURRENT RUNNING PROCESS - danny #######
+Name	Status	Priority	Running time	Elapsed time
+danny	R	2		2		1	
+####### READY PROCESS: N/A #######
+####### BLOCKED PROCESS QUEUE #######
+Name	Status	Priority	Running time	Elapsed time
+candy	B	2		5		4	
+peppa	B	2		10		8	
+edmond	B	2		13		7	
+Process danny is terminating...
+Name	Status	Priority	Running time	Elapsed time
+danny	C	2		2		2	
+  Turnaround time	 Weighted turnaround time	
+  22			   11.000000
+Process danny is destroyed!
+Press any key to continue.....c
+
+All the 5 processes terminated. The average turnaround time = 7.200000.
+
+.....EXPERIMENT 3 DONE.....Press any key to end.....
